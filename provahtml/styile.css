@@ -1,0 +1,126 @@
+/* Stile generale della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titolo principale */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Immagine centrata */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Sottotitolo */
+h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Separatore */
+hr {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+/* Paragrafo descrittivo */
+p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+}
+
+/* Liste */
+ul, ol {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    padding-left: 20px;
+    color: #444;
+    font-size: 1em;
+}
+
+/* Pulsanti */
+button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabelle */
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Moduli */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 40px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    margin: 0;
+}
